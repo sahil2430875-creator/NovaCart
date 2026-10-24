@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NovaCart | Smart Shopping</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <header class="topbar">
+
+        <div class="container navbar">
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">N</span>
+                NovaCart
+            </a>
+
+            <div class="search-box">
+
+                <input id="globalSearch" type="text" placeholder="Search products...">
+
+                <button id="globalSearchBtn">
+                    🔎
+                </button>
+
+            </div>
+
+            <nav class="nav-links" id="navLinks">
+
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+
+            </nav>
+
+            <div class="nav-actions">
+
+                <button class="theme-btn" id="themeBtn">
+                    🌙
+                </button>
+
+                <a href="wishlist.html" class="icon-btn">
+                    ♡
+                    <span class="count wishlist-count">0</span>
+                </a>
+
+                <a href="cart.html" class="icon-btn">
+                    🛒
+                    <span class="count cart-count">0</span>
+                </a>
+
+                <button class="icon-btn menu-btn" id="menuBtn">
+                    ☰
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <div class="category-bar">
+
+        <div class="container category-inner">
+
+            <button class="category-link" data-category="all">
+                All
+            </button>
+
+            <button class="category-link" data-category="Electronics">
+                Electronics
+            </button>
+
+            <button class="category-link" data-category="Fashion">
+                Fashion
+            </button>
+
+            <button class="category-link" data-category="Home">
+                Home
+            </button>
+
+            <button class="category-link" data-category="Gaming">
+                Gaming
+            </button>
+
+            <button class="category-link" data-category="Accessories">
+                Accessories
+            </button>
+
+            <button class="category-link" data-category="Study">
+                Study
+            </button>
+
+            <button class="category-link" data-category="Deals">
+                Deals
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <main>
+
+        <section class="hero">
+
+            <div class="container hero-grid">
+
+                <div>
+
+                    <span class="tag">
+                        ✨ Smart Shopping Starts Here
+                    </span>
+
+                    <h1>
+                        Shop smarter.<br>
+                        Live better.
+                    </h1>
+
+                    <p>
+                        Discover useful products, exciting deals
+                        and a simple shopping experience made
+                        for everyday needs.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="products.html" class="primary-btn">
+                            Shop Now →
+                        </a>
+
+                        <button id="dealBtn" class="secondary-btn">
+                            🔥 View Deals
+                        </button>
+
+                    </div>
+
+                    <div class="trust">
+
+                        <span>✓ Quality Products</span>
+                        <span>✓ Secure Payment</span>
+                        <span>✓ Easy Returns</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="deal-card">
+
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=90"
+                        alt="Wireless Headphones">
+
+                    <span class="product-category">
+                        Limited Deal
+                    </span>
+
+                    <h3>
+                        Premium Wireless Headphones
+                    </h3>
+
+                    <div class="deal-price">
+                        ₹2,999
+
+                        <span class="old-price">
+                            ₹4,999
+                        </span>
+                    </div>
+
+                    <p>
+                        40% OFF • Limited time offer
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <h2>
+                        Why Shop With Us?
+                    </h2>
+
+                    <p>
+                        Everything you need for a smooth shopping experience.
+                    </p>
+
+                </div>
+
+
+                <div class="features">
+
+                    <div class="feature">
+
+                        <div class="feature-icon">
+                            🚚
+                        </div>
+
+                        <h3>
+                            Fast Delivery
+                        </h3>
+
+                        <p>
+                            Quick and reliable delivery for your orders.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <div class="feature-icon">
+                            🔒
+                        </div>
+
+                        <h3>
+                            Secure Payment
+                        </h3>
+
+                        <p>
+                            Your payment information stays protected.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <div class="feature-icon">
+                            ↩️
+                        </div>
+
+                        <h3>
+                            Easy Returns
+                        </h3>
+
+                        <p>
+                            Simple return process for eligible products.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <div class="feature-icon">
+                            ⭐
+                        </div>
+
+                        <h3>
+                            Quality Products
+                        </h3>
+
+                        <p>
+                            Useful products selected for everyday needs.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="newsletter">
+
+                    <div>
+
+                        <h2>
+                            Get deals in your inbox
+                        </h2>
+
+                        <p>
+                            Subscribe for new products and special offers.
+                        </p>
+
+                    </div>
+
+
+                    <form id="newsletterForm">
+
+                        <input id="emailInput" type="email" placeholder="Enter your email" required>
+
+                        <button>
+                            Subscribe
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="section">
+
+            <div class="container about-grid">
+
+                <div class="about-card">
+
+                    <h3>
+                        About NovaCart
+                    </h3>
+
+                    <p>
+                        NovaCart is a student e-commerce project
+                        designed to demonstrate a modern shopping
+                        interface with products, search, filters,
+                        cart, wishlist and checkout.
+                    </p>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <h3>
+                        Simple. Smart. Useful.
+                    </h3>
+
+                    <p>
+                        Our goal is to make browsing and shopping
+                        simple with clear product information and
+                        easy navigation.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <div>
+
+                    <h3>
+                        NovaCart
+                    </h3>
+
+                    <p>
+                        Smart shopping for everyday life.
+                        Quality products and useful deals.
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <h3>
+                        Shop
+                    </h3>
+
+                    <a href="products.html">
+                        All Products
+                    </a>
+
+                    <a href="products.html?category=Electronics">
+                        Electronics
+                    </a>
+
+                    <a href="products.html?category=Fashion">
+                        Fashion
+                    </a>
+
+                    <a href="products.html?category=Deals">
+                        Deals
+                    </a>
+
+                </div>
+
+
+                <div>
+
+                    <h3>
+                        Help
+                    </h3>
+
+                    <a href="about.html">
+                        About Us
+                    </a>
+
+                    <a href="contact.html">
+                        Contact Us
+                    </a>
+
+                    <a href="cart.html">
+                        My Cart
+                    </a>
+
+                    <a href="wishlist.html">
+                        Wishlist
+                    </a>
+
+                </div>
+
+
+                <div>
+
+                    <h3>
+                        Contact
+                    </h3>
+
+                    <p>
+                        📧 support@novacart.com
+                    </p>
+
+                    <p>
+                        📞 +91 98765 43210
+                    </p>
+
+                    <p>
+                        📍 Kanpur, Uttar Pradesh
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="copyright">
+                © 2026 NovaCart. All rights reserved.
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <div id="toastContainer"></div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

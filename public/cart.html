@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cart | NovaCart</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <header class="topbar">
+
+        <div class="container navbar">
+
+            <a href="index.html" class="logo">
+
+                <span class="logo-icon">
+                    N
+                </span>
+
+                NovaCart
+
+            </a>
+
+
+            <div class="search-box">
+
+                <input id="globalSearch" placeholder="Search products...">
+
+                <button id="globalSearchBtn">
+                    🔎
+                </button>
+
+            </div>
+
+
+            <nav class="nav-links" id="navLinks">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="products.html">
+                    Products
+                </a>
+
+                <a href="about.html">
+                    About
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <div class="nav-actions">
+
+                <button id="themeBtn" class="theme-btn">
+                    🌙
+                </button>
+
+                <a href="wishlist.html" class="icon-btn">
+                    ♡
+                    <span class="count wishlist-count">0</span>
+                </a>
+
+                <a href="cart.html" class="icon-btn">
+                    🛒
+                    <span class="count cart-count">0</span>
+                </a>
+
+                <a href="login.html" class="icon-btn" aria-label="Login" title="Login">👤</a>
+                <button id="menuBtn" class="icon-btn menu-btn">
+                    ☰
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+
+        <section class="page-title">
+
+            <div class="container">
+
+                <h1>
+                    Shopping Cart
+                </h1>
+
+                <p>
+                    Review your selected products before checkout.
+                </p>
+
+            </div>
+
+        </section>  
+
+
+        <div class="container cart-layout">
+
+
+            <div id="cartPageItems" class="cart-list">
+            </div>
+
+
+            <aside class="summary">
+
+                <h2>
+                    Order Summary
+                </h2>
+
+
+                <div class="sum-row">
+
+                    <span>
+                        Subtotal
+                    </span>
+
+                    <span id="cartSubtotal">
+                        ₹0
+                    </span>
+
+                </div>
+
+
+                <div class="sum-row">
+
+                    <span>
+                        Delivery
+                    </span>
+
+                    <span id="cartDelivery">
+                        FREE
+                    </span>
+
+                </div>
+
+
+                <div class="sum-row sum-total">
+
+                    <span>
+                        Total
+                    </span>
+
+                    <span id="cartFinal">
+                        ₹0
+                    </span>
+
+                </div>
+
+
+                <a href="checkout.html" class="primary-btn">
+                    Proceed to Checkout
+                </a>
+
+
+                <a href="products.html" class="secondary-btn continue-btn">
+                    Continue Shopping
+                </a>
+
+            </aside>
+
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <div>
+                    <h3>NovaCart</h3>
+                    <p>
+                        Smart shopping for everyday life.
+                        Quality products and useful deals.
+                    </p>
+                </div>
+
+
+                <div>
+                    <h3>Shop</h3>
+                    <a href="products.html">All Products</a>
+                    <a href="products.html?category=Electronics">Electronics</a>
+                    <a href="products.html?category=Fashion">Fashion</a>
+                    <a href="products.html?category=Deals">Deals</a>
+                </div>
+
+
+                <div>
+                    <h3>Help</h3>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="cart.html">My Cart</a>
+                    <a href="wishlist.html">Wishlist</a>
+                </div>
+
+
+                <div>
+                    <h3>Contact</h3>
+                    <p>📧 support@novacart.com</p>
+                    <p>📞 +91 98765 43210</p>
+                    <p>📍 Kanpur, Uttar Pradesh</p>
+                </div>
+
+            </div>
+
+
+            <div class="copyright">
+                © 2026 NovaCart. All rights reserved.
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <div id="toastContainer"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
